@@ -1,22 +1,21 @@
-# Dad Joke Showdown — v1
+# Dad Joke Showdown
 
-![Dad Joke Showdown](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5.svg)
-![Rank](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/haidildariell/dad-joke-showdown-v1/rank.svg)
-![Reward](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/haidildariell/dad-joke-showdown-v1/reward.svg)
+A single dad joke, submitted to the Dad Joke Showdown bounty on make.fun.
 
-Entry for the [Dad Joke Showdown](https://make.fun/c/u-mfnakmal-dad-joke-showdown-1d2ce3e5) bounty on make.fun.
+[![make.fun](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5.svg)](https://make.fun/c/u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![rank](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/haidildariell/dad-joke-showdown-v1/rank.svg)](https://make.fun/c/u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![reward](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/haidildariell/dad-joke-showdown-v1/reward.svg)](https://make.fun/c/u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+
+Bounty: https://make.fun/c/u-mfnakmal-dad-joke-showdown-1d2ce3e5
 
 ## The joke
 
-One original dad joke, written fresh for this entry — a couch-potato dad, a remote control, and a single clean pun that lands at the very end, built to be told out loud across a dinner table.
+> My dad calls himself a couch potato, but Mom says he's the real remote control in this house — because he's always pushing her buttons.
 
-## How it works
-
-`main.py` writes the joke to `/output/entry.txt` (UTF-8, 135 characters, well inside the 200-character limit). No input, no network, no dependencies — just the joke, deterministic on every run.
-
-## Run it
+## Run
 
 ```sh
 python3 main.py
-cat /output/entry.txt
 ```
+
+Writes the joke to `/output/entry.txt` (validated: one non-blank joke, 1–200 characters).
